@@ -15,6 +15,11 @@ const {
   handleOnlineStatus,
 } = require("./controllers/socketHandlers");
 
+// Get Route
+app.get("/", (req, res) => {
+  res.send("Node JS Socket.IO Server For ChatBuddy Running");
+});
+
 mongoose
   .connect(
     "mongodb+srv://MehankJain:mehankjain16.@mehank-cluster-xciyz.mongodb.net/chatApp?retryWrites=true&w=majority",
