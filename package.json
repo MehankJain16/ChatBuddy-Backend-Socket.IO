@@ -1,0 +1,17 @@
+{
+  "name": "chatsocketserver",
+  "version": "1.0.0",
+  "description": "Chat App Socket Real Time Server implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Mehank Jain",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "socket.io": "^2.3.0"
+  }
+}
